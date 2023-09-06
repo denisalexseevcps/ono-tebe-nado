@@ -1,6 +1,7 @@
 /* место для вашего кода */
 .body-main {
   width: 1440px;
+  margin : auto;
 }
 
 .header {
@@ -60,7 +61,8 @@
   margin-top: 5px;
 }
 
-.full__address {
+.address__value,
+.address__address {
   color: #000;
   font-size: 18px;
   font-style: normal;
@@ -99,7 +101,7 @@
   margin-top: 20px;
 }
 
-.cover__title :first-child {
+.cover__title:first-child {
   margin-top: 0;
 }
 
@@ -143,6 +145,7 @@
 }
 
 .bet-button {
+  cursor: pointer;
   color: #fff;
   text-align: center;
   font-size: 22px;
